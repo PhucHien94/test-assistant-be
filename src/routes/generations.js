@@ -104,6 +104,7 @@ router.get('/', requireAuth, async (req, res, next) => {
         const limit = Math.min(50, Math.max(1, parseInt(req.query.limit || '10', 10)));
         const skip = (page - 1) * limit;
 
+        
         // Parse filter type: 'all', 'mine', 'published'
         const filterType = req.query.filter || 'all';
 
