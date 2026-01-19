@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev":"node --watch src/server.js"
@@ -20,8 +21,8 @@
     "mongoose": "^9.0.0",
     "morgan": "^1.10.1",
     "node-fetch": "^3.3.2",
-    "openai": "^6.9.1",
-    "type":"module"
+    "openai": "^6.9.1"
+    
     
   }
 }
